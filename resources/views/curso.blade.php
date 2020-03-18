@@ -6,7 +6,7 @@
             <h4 class="rounded ">{{$cur->nombre_curso}}</h4>
         </div>
         <div class="col-12 text-right">
-            @if ()
+            @if (auth()->user())
             <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
                 Nuevo post
             </button>
