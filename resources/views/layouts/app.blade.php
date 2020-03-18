@@ -23,7 +23,7 @@
         <nav class="p-3 justify-content-around row">
             <a href="/" class="text-white text-decoration-none col-2 text-left">Cole</a>
             <div class="col-7"></div>
-            <a href="/login" class="col-2 text-white text-decoration-none">Iniciar sesion</a>
+            <a href="{{route('login')}}" class="col-2 text-white text-decoration-none">Iniciar sesion</a>
         </nav>
     </header>
     @section('content')
